@@ -4,19 +4,95 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
-    <link rel="stylesheet" href="styles.css">
+    
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            background-color: #f4f4f9;
+            color: #333;
+            padding: 20px;
+        }
+
+        header {
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            padding: 30px 0;
+            margin-bottom: 20px;
+        }
+
+        h1 {
+            margin-bottom: 10px;
+            font-size: 2.5rem;
+        }
+
+        h2 {
+            font-size: 1.8rem;
+            margin-bottom: 10px;
+            color: #333;
+        }
+
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            background-color: white;
+            color: #333;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
+        }
+
+        p {
+            margin-bottom: 15px;
+        }
+
+        ul {
+            list-style-type: none;
+            padding-left: 0;
+        }
+
+        ul li {
+            background-color: #e0e0e0;
+            margin-bottom: 10px;
+            padding: 10px;
+            border-radius: 5px;
+        }
+
+        #contact p {
+            font-size: 1.1rem;
+            color: #555;
+        }
+
+        .profile-photo {
+            display: block;
+            margin: 20px auto;
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 4px solid #4CAF50;
+        }
+    </style>
 </head>
 <body>
     <header>
         <div class="container">
-            <h1>Syrine Rebai</h1>
-            <p>Full Stack Developer</p>
+            
+            <h1>My portfolio</h1>
         </div>
     </header>
-
+<img src="c:\Users\Lenovo\Desktop\455806534_1387095822207520_4954583918507648160_n.jpg" alt="Syrine Rebai" class="profile-photo">
     <section id="about" class="container">
         <h2>About Me</h2>
-        <p>Hello! I'm syrine  , a full stack developer with a passion for building web applications. I specialize in JavaScript, PHP, and Angular.</p>
+        <p>Hello! I'm Syrine, a full stack developer with a passion for building web applications. I specialise in JavaScript, PHP, and Angular.</p>
     </section>
 
     <section id="skills" class="container">
@@ -28,13 +104,13 @@
             <li>PHP</li>
             <li>Symfony</li>
         </ul>
-    
+    </section>
+
     <section id="contact" class="container">
         <h2>Contact</h2>
         <p>Email: rebaisyrine046@gmail.com</p>
     </section>
-    <img src="c:\Users\Lenovo\Desktop\455806534_1387095822207520_4954583918507648160_n.jpg" alt="Syrine Rebai" class="profile-photo">
-   
+
+    
 </body>
 </html>
-
